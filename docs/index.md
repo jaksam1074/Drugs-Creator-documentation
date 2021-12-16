@@ -1,4 +1,4 @@
-This is the official Jobs Creator documentation
+This is the official Advanced Drugs Creator documentation
 
-- Official [FiveM post](https://forum.cfx.re/t/jobs-creator-esx-in-game-jobs-creation-menu-without-server-restart/2667762/253)
+- Official [FiveM post](https://forum.cfx.re/t/esx-advanced-drugs-creator-in-game-drug-creation-menu-without-server-restart/1885920)
 - Tebex [page](https://jaksam1074-fivem-scripts.tebex.io/category/1712794)
