@@ -2,7 +2,7 @@ Triggered after notifying player client side
 
 ## Event
 ``` lua
-AddEventHandler("esx_advanced_drugs:notify", function(message)
+AddEventHandler("esx_advanced_drugs:notify", function(message, uncoloredMessage)
 
 end)
 ```
@@ -12,6 +12,7 @@ end)
 | Name              | Data Type | Description                 |
 | -                 | -         | -                             |
 | `message`         | string    | Message of the notification  |
+| `uncoloredMessage`         | string    | Message of the notification but without ~r~, ~g~, etc.  |
 
 ## Example
 ``` lua
@@ -20,7 +21,7 @@ RegisterNetEvent("esx_advanced_drugs:esx:ready", function()
     exports["esx_advanced_drugs"]:disableScriptEvent("esx_advanced_drugs:notify")
 end)
 
-RegisterNetEvent("esx_advanced_drugs:notify", function(message)
+RegisterNetEvent("esx_advanced_drugs:notify", function(message, uncoloredMessage)
     TriggerEvent("external_script:notify", message)
 end)
 ```
