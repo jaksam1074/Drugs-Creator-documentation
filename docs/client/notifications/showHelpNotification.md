@@ -13,8 +13,6 @@ exports["esx_advanced_drugs"]:replaceShowHelpNotification(customFunction)
 
 ## Example
 ``` lua
--- Placed in esx_advanced_drugs/integrations/cl_integrations.lua
-
 local function myCustomHelpNotification(message)
     -- Customize your function to fit your needs
     print(message)
@@ -22,7 +20,7 @@ local function myCustomHelpNotification(message)
     ExternalScript.showHelpNotification(message)
 end
 
-AddEventHandler("esx_advanced_drugs:esx:ready", function() 
+RegisterNetEvent("esx_advanced_drugs:esx:ready", function() 
     -- This will replace the base function with the one you want
     exports["esx_advanced_drugs"]:replaceShowHelpNotification(myCustomHelpNotification)
 end)

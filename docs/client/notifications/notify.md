@@ -15,12 +15,12 @@ end)
 
 ## Example
 ``` lua
-AddEventHandler("esx_advanced_drugs:esx:ready", function() 
+RegisterNetEvent("esx_advanced_drugs:esx:ready", function() 
     -- Disables the default script notification (otherwise there would be 2 notifications)
     exports["esx_advanced_drugs"]:disableScriptEvent("esx_advanced_drugs:notify")
 end)
 
-AddEventHandler("esx_advanced_drugs:notify", function(message)
+RegisterNetEvent("esx_advanced_drugs:notify", function(message)
     TriggerEvent("external_script:notify", message)
 end)
 ```
