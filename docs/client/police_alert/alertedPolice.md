@@ -2,7 +2,7 @@ Triggered when police is alerted
 
 ## Event
 ``` lua
-RegisterNetEvent("esx_advanced_drugs:alertedPolice", function(coords)
+RegisterNetEvent("advanced_drugs_creator:alertedPolice", function(coords)
 
 end)
 ```
@@ -16,11 +16,11 @@ end)
 ## Example
 ``` lua
 -- Disables the default police alert
-RegisterNetEvent("esx_advanced_drugs:esx:ready", function() 
-    exports["esx_advanced_drugs"]:disableScriptEvent("esx_advanced_drugs:alertedPolice")
+RegisterNetEvent("advanced_drugs_creator:esx:ready", function() 
+    exports["advanced_drugs_creator"]:disableScriptEvent("advanced_drugs_creator:alertedPolice")
 end)
 
-RegisterNetEvent("esx_advanced_drugs:alertedPolice", function(coords)
+RegisterNetEvent("advanced_drugs_creator:alertedPolice", function(coords)
     -- Do something
 end)
 ```

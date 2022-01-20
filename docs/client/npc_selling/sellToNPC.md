@@ -2,7 +2,7 @@ Trigger to start selling to an NPC, as you would do after pressing E to sell in 
 
 ## Event
 ``` lua
-TriggerEvent("esx_advanced_drugs:sellToNPC", ped)
+TriggerEvent("advanced_drugs_creator:sellToNPC", ped)
 ```
 
 ### Parameters
@@ -15,5 +15,5 @@ TriggerEvent("esx_advanced_drugs:sellToNPC", ped)
 ``` lua
 local closestPed = ESX.Game.GetClosestPed()
 
-TriggerEvent("esx_advanced_drugs:sellToNPC", closestPed)
+TriggerEvent("advanced_drugs_creator:sellToNPC", closestPed)
 ```

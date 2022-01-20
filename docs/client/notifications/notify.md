@@ -2,7 +2,7 @@ Triggered after notifying player client side
 
 ## Event
 ``` lua
-AddEventHandler("esx_advanced_drugs:notify", function(message, uncoloredMessage)
+AddEventHandler("advanced_drugs_creator:notify", function(message, uncoloredMessage)
 
 end)
 ```
@@ -16,12 +16,12 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_advanced_drugs:esx:ready", function() 
+RegisterNetEvent("advanced_drugs_creator:esx:ready", function() 
     -- Disables the default script notification (otherwise there would be 2 notifications)
-    exports["esx_advanced_drugs"]:disableScriptEvent("esx_advanced_drugs:notify")
+    exports["advanced_drugs_creator"]:disableScriptEvent("advanced_drugs_creator:notify")
 end)
 
-RegisterNetEvent("esx_advanced_drugs:notify", function(message, uncoloredMessage)
+RegisterNetEvent("advanced_drugs_creator:notify", function(message, uncoloredMessage)
     TriggerEvent("external_script:notify", message)
 end)
 ```

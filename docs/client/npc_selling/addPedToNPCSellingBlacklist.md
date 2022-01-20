@@ -4,7 +4,7 @@ To add a ped to NPC selling blacklist, so players won't be able to sell to the p
 
 ## Event
 ``` lua
-exports["esx_advanced_drugs"]:addPedToNPCSellingBlacklist(ped)
+exports["advanced_drugs_creator"]:addPedToNPCSellingBlacklist(ped)
 ```
 
 ### Parameters
@@ -15,9 +15,9 @@ exports["esx_advanced_drugs"]:addPedToNPCSellingBlacklist(ped)
 
 ## Example
 ``` lua
-RegisterNetEvent('esx_advanced_drugs:esx:ready', function()
+RegisterNetEvent('advanced_drugs_creator:esx:ready', function()
     local closestPed = ESX.Game.GetClosestPed()
 
-    exports["esx_advanced_drugs"]:addPedToNPCSellingBlacklist(closestPed)
+    exports["advanced_drugs_creator"]:addPedToNPCSellingBlacklist(closestPed)
 end)
 ```
