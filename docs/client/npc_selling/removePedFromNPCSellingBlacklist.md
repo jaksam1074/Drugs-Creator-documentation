@@ -15,7 +15,7 @@ exports["advanced_drugs_creator"]:removePedFromNPCSellingBlacklist(ped)
 
 ## Example
 ``` lua
-RegisterNetEvent('advanced_drugs_creator:esx:ready', function()
+RegisterNetEvent('advanced_drugs_creator:framework:ready', function()
     local closestPed = ESX.Game.GetClosestPed()
 
     exports["advanced_drugs_creator"]:removePedFromNPCSellingBlacklist(closestPed)

@@ -10,7 +10,7 @@ TriggerEvent("advanced_drugs_creator:disableDefaultSellingMethodNPC")
 ## Example
 ``` lua
 -- Disables the prompt
-RegisterNetEvent("advanced_drugs_creator:esx:ready", function() 
+RegisterNetEvent("advanced_drugs_creator:framework:ready", function() 
     TriggerEvent("advanced_drugs_creator:disableDefaultSellingMethodNPC")
 end)
 

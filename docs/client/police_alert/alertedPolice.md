@@ -16,7 +16,7 @@ end)
 ## Example
 ``` lua
 -- Disables the default police alert
-RegisterNetEvent("advanced_drugs_creator:esx:ready", function() 
+RegisterNetEvent("advanced_drugs_creator:framework:ready", function() 
     exports["advanced_drugs_creator"]:disableScriptEvent("advanced_drugs_creator:alertedPolice")
 end)
 

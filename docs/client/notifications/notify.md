@@ -16,7 +16,7 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("advanced_drugs_creator:esx:ready", function() 
+RegisterNetEvent("advanced_drugs_creator:framework:ready", function() 
     -- Disables the default script notification (otherwise there would be 2 notifications)
     exports["advanced_drugs_creator"]:disableScriptEvent("advanced_drugs_creator:notify")
 end)
