@@ -16,7 +16,7 @@ end)
 ## Example
 ``` lua
 RegisterNetEvent("advanced_drugs_creator:framework:ready", function() 
-    -- Disables the default script animations for the npc sell (otherwise there would be 2 notifications)
+    -- Disables the default script animations for the npc sell (otherwise there would be 2 animations)
     exports["advanced_drugs_creator"]:disableScriptEvent("advanced_drugs_creator:npc:acceptedDrug")
 end)
 
