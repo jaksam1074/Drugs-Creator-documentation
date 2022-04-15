@@ -63,5 +63,5 @@ RegisterCommand("effects", function(playerId)
     local effectsDuration = 120 -- seconds
 
     TriggerClientEvent("advanced_drugs_creator:drugEffects", playerId, takingMethod, effects, effectsDuration)
-end
+end)
 ```
