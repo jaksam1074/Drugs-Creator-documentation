@@ -13,7 +13,7 @@ end)
 | -                 | -         | -                             |
 | `coords`          | vector3    | Coordinates where a player tried to sell drugs  |
 
-## Example
+## Example (you can place it in the folder integrations/cl_integrations.lua of the script)
 ``` lua
 -- Disables the default police alert
 RegisterNetEvent("advanced_drugs_creator:framework:ready", function() 
